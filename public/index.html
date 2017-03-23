@@ -1,13 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head lang="en">
+
+<head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <title>Color Picker</title>
     <link rel="stylesheet" href="/screen.css">
-  </head>
-  <body>
-    <h1>Hello, World!</h1>
+</head>
+
+
+<body>
+    <div class="box">
+        <h1>An HSL Color Picker</h1>
+
+        <div class="swatch">
+        </div>
+
+      <div class="colorBar">hsla
+        (<div class="hueColor"> 0
+        </div>
+        <div class="saturationColor"> 0
+        </div>
+        <div class="lightnessColor"> 0
+        </div>
+        <div class="alphaColor hidden"> 0
+        </div>)
+      </div>
+
+        <div class="sliders">
+            <span>HUE</span>
+            <input type="range" name="hue" min="0" max="360">
+            <span>SATURATION</span>
+            <input type="range" name="saturation" min="0" max="100">
+            <span>LIGHTNESS</span>
+            <input type="range" name="lightness" min="0" max="100">
+            <span>ALPHA</span>
+            <input type="range" name="alpha" min="0" max="100">
+        </div>
+    </div>
+
+
     <script src="/main.js" charset="utf-8"></script>
-  </body>
+</body>
+
 </html>
