@@ -15,7 +15,7 @@ body {
 
 .box h1 {
   font-family: Gotham;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   margin-top: 0px;
 }
 
@@ -30,17 +30,16 @@ span {
 }
 
 .box {
-  /*border: 1px solid;
-  border-radius: 5px;
+  border: 1px solid;
+  border-radius: 10px;
   border-color: Grey;
-  box-shadow: 0 0 1em gold;*/
+  box-shadow: 0 0 1em grey;
   background-color: rgb(217, 224, 230);
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 80px;
   padding: 50px;
-
 }
 
 .swatch {
@@ -68,8 +67,8 @@ span {
   border-radius: 5px;
   padding: 5px;
   margin: 10px;
-  margin-bottom: 60px;
-
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .hidden {
